@@ -1,0 +1,82 @@
+dec.-26 11:30:07.132 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+dec.-26 11:30:07.184 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.09.3-edge
+dec.-26 11:30:07.196 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/nnolte/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@0.14.0
+dec.-26 11:30:07.204 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+dec.-26 11:30:07.204 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+dec.-26 11:30:07.206 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+dec.-26 11:30:07.216 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+dec.-26 11:30:07.228 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/nadjanolte/NIB/my-first-nextflow-pipeline/nextflow.config
+dec.-26 11:30:07.229 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/nadjanolte/NIB/my-first-nextflow-pipeline/nextflow.config
+dec.-26 11:30:07.241 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+dec.-26 11:30:07.550 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+dec.-26 11:30:07.561 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [desperate_shannon] DSL2 - revision: b926f77597
+dec.-26 11:30:07.562 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+dec.-26 11:30:07.562 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+dec.-26 11:30:07.568 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/nnolte/.nextflow/secrets/store.json
+dec.-26 11:30:07.570 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@340d6d89] - activable => nextflow.secret.LocalSecretsProvider@340d6d89
+dec.-26 11:30:07.608 [main] DEBUG nextflow.Session - Session UUID: 366d1e14-ebd8-48ed-8edc-6b23014f3938
+dec.-26 11:30:07.608 [main] DEBUG nextflow.Session - Run name: desperate_shannon
+dec.-26 11:30:07.608 [main] DEBUG nextflow.Session - Executor pool size: 8
+dec.-26 11:30:07.614 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+dec.-26 11:30:07.617 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+dec.-26 11:30:07.638 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.09.3-edge build 5888
+  Created: 10-10-2023 09:58 UTC (11:58 CEST)
+  System: Mac OS X 11.6.2
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 11.0.20+8-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 32165@Nadjas-MacBook-Air.local [127.0.0.1]
+  CPUs: 8 - Mem: 8 GB (89.3 MB) - Swap: 2 GB (818 MB)
+dec.-26 11:30:07.648 [main] DEBUG nextflow.Session - Work-dir: /Users/nadjanolte/NIB/my-first-nextflow-pipeline/work [Mac OS X]
+dec.-26 11:30:07.648 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/nadjanolte/NIB/my-first-nextflow-pipeline/bin
+dec.-26 11:30:07.655 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+dec.-26 11:30:07.661 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+dec.-26 11:30:07.670 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+dec.-26 11:30:07.683 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+dec.-26 11:30:07.735 [main] DEBUG nextflow.Session - Session start
+dec.-26 11:30:07.806 [main] DEBUG nextflow.ast.NextflowDSLImpl - Missing name in process definition at line: 21
+dec.-26 11:30:07.808 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+dec.-26 11:30:07.816 [main] ERROR nextflow.cli.Launcher - Script compilation error
+- file : /Users/nadjanolte/NIB/my-first-nextflow-pipeline/main.nf
+- cause: Process definition syntax error -- A string identifier must be provided after the `process` keyword @ line 21, column 8.
+   process filter file {
+          ^
+
+1 error
+
+nextflow.exception.ScriptCompilationException: Script compilation error
+- file : /Users/nadjanolte/NIB/my-first-nextflow-pipeline/main.nf
+- cause: Process definition syntax error -- A string identifier must be provided after the `process` keyword @ line 21, column 8.
+   process filter file {
+          ^
+
+1 error
+
+	at nextflow.script.ScriptParser.parse0(ScriptParser.groovy:196)
+	at nextflow.script.ScriptParser.parse(ScriptParser.groovy:206)
+	at nextflow.script.ScriptRunner.parseScript(ScriptRunner.groovy:228)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:135)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:372)
+	at nextflow.cli.Launcher.run(Launcher.groovy:495)
+	at nextflow.cli.Launcher.main(Launcher.groovy:666)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script_529f22689284f43e: 21: Process definition syntax error -- A string identifier must be provided after the `process` keyword @ line 21, column 8.
+   process filter file {
+          ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:292)
+	at org.codehaus.groovy.control.CompilationUnit$IPrimaryClassNodeOperation.doPhaseOperation(CompilationUnit.java:985)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:672)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:636)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:389)
+	at groovy.lang.GroovyClassLoader.lambda$parseClass$3(GroovyClassLoader.java:332)
+	at org.codehaus.groovy.runtime.memoize.StampedCommonCache.compute(StampedCommonCache.java:163)
+	at org.codehaus.groovy.runtime.memoize.StampedCommonCache.getAndPut(StampedCommonCache.java:154)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:330)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:526)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:538)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:570)
+	at nextflow.script.ScriptParser.parse0(ScriptParser.groovy:175)
+	... 6 common frames omitted

@@ -1,0 +1,12 @@
+2023-12-26 11:09:54	-	thirsty_leibniz	-	1efe50fb722db5c28710c22eefd73004	19070217-abbc-42ce-a22a-19da3747bf19	nextflow run main.nf
+2023-12-26 11:10:21	472ms	golden_lavoisier	OK	e6a6dbbe26e8392e66a64acfda18f58b	bfcafd43-e207-4d39-843e-ef5bdaa8fbf9	nextflow run main.nf
+2023-12-26 11:10:33	314ms	marvelous_coulomb	OK	e6a6dbbe26e8392e66a64acfda18f58b	316145fa-a912-4095-bc7b-5fd93b5db9c4	nextflow run main.nf --name Nadja
+2023-12-26 11:17:16	830ms	special_noyce	OK	e927a13cbd93dfa06ab1541461cddb73	267b34d6-7bd3-4b76-bba0-fd8be905a432	nextflow run main.nf --name Nadja
+2023-12-26 11:30:07	-	desperate_shannon	-	b926f775978445672544bb45450ee018	366d1e14-ebd8-48ed-8edc-6b23014f3938	nextflow run main.nf
+2023-12-26 11:30:26	-	festering_gutenberg	-	6eb7cd17887f0a52a7aa12726c1f88c5	c62deb94-8f87-47fe-8566-dead31bcfa86	nextflow run main.nf
+2023-12-26 11:32:37	-	compassionate_leibniz	-	58643db96d40e7c6b25af28ea2fc4622	0a4128e9-0ec0-4f54-a3db-86c3ce53661d	nextflow run main.nf
+2023-12-26 11:32:56	-	cheeky_meninsky	-	825456fe74fb6adcec7b469520f421df	928fa33a-6453-49a4-a4ad-7a57c0bbf1a7	nextflow run main.nf
+2023-12-26 11:33:10	1.3s	lonely_ride	OK	7532eef648e274dc00ce15b09546f9e5	360ab09f-6d0b-4e35-864a-696750b36488	nextflow run main.nf
+2023-12-26 11:34:01	1.5s	thirsty_elion	OK	27be89b5d5015c48c5639685463058dd	c7f83070-c83b-4117-af78-ce911d3f3aea	nextflow run main.nf
+2024-01-02 09:33:06	-	agitated_torricelli	-	471d002ed070d3283845cc1cc7c23af2	a6db4173-4d90-407d-a4ca-6dd0080610fe	nextflow run main.nf
+2024-01-02 09:33:50	1.4s	sharp_kimura	OK	fdace3379e13686fa255aa0d7de42507	57d32f54-2c15-4d72-a88f-6c74654b4c92	nextflow run main.nf

@@ -24,3 +24,6 @@
 2024-01-02 11:03:34	1.1s	goofy_almeida	OK	88ddcec821d2cf7ffeca02ec89f40616	5135f4b6-43c6-4e01-a2e2-4c149a59aefd	nextflow run main-channel.nf
 2024-01-02 11:04:44	850ms	condescending_wright	OK	c903a99d3f604f251dfddeaf0058eb6c	00a04400-cced-451d-a227-8062935e9326	nextflow run main-channel.nf
 2024-01-02 11:07:45	1.3s	serene_ramanujan	OK	c903a99d3f604f251dfddeaf0058eb6c	0a20bac9-0cdc-4483-9423-54789d93b9ed	nextflow run main-channel.nf
+2024-01-02 11:13:34	-	grave_mendel	-	3f2afc2f3e9d0f97d1e46be25b1c7817	8b4eda87-27b8-4683-bb06-3ffeafddb7b7	nextflow run main-channel.nf
+2024-01-02 11:13:50	1.1s	romantic_fourier	OK	d52723bb7676a351c2e3ef5a71b983d0	8f66588f-72e6-43ca-908d-d8de7f8ac07b	nextflow run main-channel.nf
+2024-01-02 11:14:11	336ms	sleepy_hawking	OK	55aaedfbc895210312aed2ca95bbe625	99e3c503-cce0-4c16-a89b-390833a0804d	nextflow run main-channel.nf

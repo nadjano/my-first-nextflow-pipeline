@@ -44,17 +44,38 @@ nextflow run main-1.nf --name [your name here]
 '''
 
 # Channels
+![Alt text](channel.png)
 
+# Channel of
 ``````
 // Channel.of create channel 
 bases = Channel.of('A', 'C', 'G', 'T')
 bases.view()
 ``````
-```{r df-drop-ok, class.source="bg-success"}
+```{r class.source="bg-danger", class.output="bg-warning"}
 A
 C
 G
 T
+```
+
+
+
+# Combine
+``````
+numbers = Channel.of(1, 2, 3, 4)
+numbers_bases = numbers.combine(bases)
+numbers_bases.view()
+``````
+```{r df-drop-ok, class.source="bg-success"}
+[1, A]
+[1, C]
+[2, A]
+[2, C]
+[1, G]
+[2, G]
+[1, T]
+[2, T]
 ```
 
 

@@ -33,13 +33,15 @@ process splitSequences {
 
 
 
-### Basic strucute 
+### Basic structure 
 
 # Input parameters
 
 ![Alt text](image.png)
 
+# Process (like a funtion)
+
+![Alt text](example-1.png)
 
 
-![Alt text](process.png)
-
+# workflow 

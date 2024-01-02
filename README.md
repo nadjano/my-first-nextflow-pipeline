@@ -43,30 +43,36 @@ How to run:
 nextflow run main-1.nf --name [your name here]
 '''
 
-# Channels
+### Channels
+
+'Variables'
+
 ![Alt text](channel.png)
 
-# Channel of
+### Value Channels 
+## Channel of
 ``````
 // Channel.of create channel 
 bases = Channel.of('A', 'C', 'G', 'T')
 bases.view()
 ``````
+Output:
 ```{r class.source="bg-danger", class.output="bg-warning"}
 A
 C
 G
 T
 ```
+## Channel factories¶
 
-
-
+These are Nextflow commands for creating channels that have implicit expected inputs and functions.
 # Combine
 ``````
 numbers = Channel.of(1, 2, 3, 4)
 numbers_bases = numbers.combine(bases)
 numbers_bases.view()
 ``````
+Output:
 ```{r df-drop-ok, class.source="bg-success"}
 [1, A]
 [1, C]
@@ -78,8 +84,30 @@ numbers_bases.view()
 [2, T]
 ```
 
+`````
+// from File Pairs
+Channel
+    .fromFilePairs('./data/*_{1,2}.fa')
+    .view()
+`````
 
+````
+[potato, [/data/potato_1.fa, /data/potato_2.fa]]
+[frog, [data/frog_1.fa, /data/frog_2.fa]]
+````
+```
+ids = ['ERR908507', 'ERR908506', 'ERR908505']
+Channel
+    .fromSRA(ids, apiKey: params.ncbi_api_key)
+    .view()
+```
+ids = ['ERR908507', 'ERR908506', 'ERR908505']
 
+``````
+[ERR908507, [/vol1/fastq/ERR908/ERR908507/ERR908507_1.fastq.gz, /vol1/fastq/ERR908/ERR908507/ERR908507_2.fastq.gz]]
+[ERR908506, [/vol1/fastq/ERR908/ERR908506/ERR908506_1.fastq.gz, /vol1/fastq/ERR908/ERR908506/ERR908506_2.fastq.gz]]
+[ERR908505, [/vol1/fastq/ERR908/ERR908505/ERR908505_1.fastq.gz, /vol1/fastq/ERR908/ERR908505/ERR908505_2.fastq.gz]]
+``````
 # Nextflow or snakemake?
 
 Key Differences

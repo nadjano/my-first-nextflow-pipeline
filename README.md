@@ -34,7 +34,7 @@
 
 # Simple example
 
-![Alt text](example-1.png)
+![Alt text](figures/example-1.png)
 
 
 How to run:
@@ -47,7 +47,7 @@ nextflow run main-1.nf --name [your name here]
 
 'Variables'
 
-![Alt text](channel.png)
+![Alt text](figures/channel.png)
 
 ### Value Channels 
 ## Channel of
@@ -91,6 +91,9 @@ Channel
     .view()
 `````
 
+
+
+# Donwload from SRA
 ````
 [potato, [/data/potato_1.fa, /data/potato_2.fa]]
 [frog, [data/frog_1.fa, /data/frog_2.fa]]
@@ -101,13 +104,20 @@ Channel
     .fromSRA(ids, apiKey: params.ncbi_api_key)
     .view()
 ```
-ids = ['ERR908507', 'ERR908506', 'ERR908505']
 
 ``````
 [ERR908507, [/vol1/fastq/ERR908/ERR908507/ERR908507_1.fastq.gz, /vol1/fastq/ERR908/ERR908507/ERR908507_2.fastq.gz]]
 [ERR908506, [/vol1/fastq/ERR908/ERR908506/ERR908506_1.fastq.gz, /vol1/fastq/ERR908/ERR908506/ERR908506_2.fastq.gz]]
 [ERR908505, [/vol1/fastq/ERR908/ERR908505/ERR908505_1.fastq.gz, /vol1/fastq/ERR908/ERR908505/ERR908505_2.fastq.gz]]
 ``````
+
+
+
+### Three
+## Two
+# One
+
+
 # Nextflow or snakemake?
 
 Key Differences

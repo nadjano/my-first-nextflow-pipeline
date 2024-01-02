@@ -38,3 +38,7 @@ process splitSequences {
 # Input parameters
 
 ![Alt text](image.png)
+
+
+
+![Alt text](image.png)

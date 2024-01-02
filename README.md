@@ -45,10 +45,11 @@ nextflow run main-1.nf --name [your name here]
 
 # Channels
 
-
+``````
 // Channel.of create channel 
 bases = Channel.of('A', 'C', 'G', 'T')
 bases.view()
+``````
 ```{r df-drop-ok, class.source="bg-success"}
 A
 C

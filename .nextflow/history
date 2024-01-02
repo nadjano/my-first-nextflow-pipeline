@@ -15,3 +15,12 @@
 2024-01-02 10:24:12	1.4s	silly_dubinsky	OK	e6defda7f7ef46ee8ce24845d60d0dab	1fb18206-a6ff-4d03-bd05-4493f62bba4c	nextflow run main-1.nf
 2024-01-02 10:36:24	1.1s	big_kay	OK	e6defda7f7ef46ee8ce24845d60d0dab	58add01f-9c7e-4a85-a3cd-fafc7e9503b1	nextflow run main-1.nf
 2024-01-02 10:44:04	1.1s	irreverent_borg	OK	322b8821ac88f13d1c44d946d7d501d7	72efd66f-ba74-427c-9723-d5d9b2f21633	nextflow run main-1.nf
+2024-01-02 11:00:20	387ms	sick_lorenz	OK	ba5b6afc1498049bbdf0c9c669073774	fc918d75-985d-4d6c-a7dc-bcf7c0384fe9	nextflow run main-channel.nf
+2024-01-02 11:01:28	349ms	backstabbing_bassi	OK	8548e5586a1bbc546dc4e57bbafc82b8	e33777a0-474c-4cd2-bc51-34d221dc8e3c	nextflow run main-channel.nf
+2024-01-02 11:01:42	1.1s	awesome_chandrasekhar	OK	971b7a53de4c8152760e8828ba5b82ee	cb24f395-edbf-443c-a502-d2f061500ad4	nextflow run main-channel.nf
+2024-01-02 11:02:33	-	nice_raman	-	5a5d4471a652c18c3ea1e44ba6abf959	f02a77ca-43b0-4838-ba7b-959d88d93ab1	nextflow run main-channel.nf
+2024-01-02 11:02:48	630ms	sleepy_bose	OK	775b40c5a58e8da67363618f946c06bc	3e1004ac-10d3-4690-a801-c6d10b4866d3	nextflow run main-channel.nf
+2024-01-02 11:03:12	737ms	nostalgic_fermi	OK	85cba38b6f595d8a25550e55f4b27c97	ac0068c0-6cbc-4f4c-8c21-3750c054f314	nextflow run main-channel.nf
+2024-01-02 11:03:34	1.1s	goofy_almeida	OK	88ddcec821d2cf7ffeca02ec89f40616	5135f4b6-43c6-4e01-a2e2-4c149a59aefd	nextflow run main-channel.nf
+2024-01-02 11:04:44	850ms	condescending_wright	OK	c903a99d3f604f251dfddeaf0058eb6c	00a04400-cced-451d-a227-8062935e9326	nextflow run main-channel.nf
+2024-01-02 11:07:45	1.3s	serene_ramanujan	OK	c903a99d3f604f251dfddeaf0058eb6c	0a20bac9-0cdc-4483-9423-54789d93b9ed	nextflow run main-channel.nf

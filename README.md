@@ -41,4 +41,5 @@ process splitSequences {
 
 
 
-![Alt text](image.png)
+![Alt text](process.png)
+

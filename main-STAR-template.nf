@@ -28,7 +28,7 @@ process build_STAR_index {
     conda "envs/STAR.yaml"
  
     input:
-    // -------- Add input channel (genomeFasta)
+    path(genomeFasta)
  
     output:
     // -------- Add output channel (Which dir is the index?)

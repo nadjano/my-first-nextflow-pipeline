@@ -79,8 +79,9 @@ Output:
 [2, T]
 ```
 
+### from File Pairs
 `````
-// from File Pairs
+
 Channel
     .fromFilePairs('./data/*_{1,2}.fa')
     .view()

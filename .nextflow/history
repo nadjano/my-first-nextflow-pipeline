@@ -46,3 +46,22 @@
 2024-01-31 12:49:27	1.5s	nauseous_laplace	OK	964d2cf6d70e50e3e4277bc360b8d7ed	5cc349ed-69ee-4565-bb54-4518333e52b5	nextflow run main-1.nf
 2024-01-31 12:49:43	644ms	astonishing_austin	OK	964d2cf6d70e50e3e4277bc360b8d7ed	50d8b1db-6660-4a40-811b-64f32c14416a	nextflow run main-1.nf --name naddi
 2024-01-31 12:49:50	1.1s	sharp_hilbert	OK	964d2cf6d70e50e3e4277bc360b8d7ed	3a918e99-1dcd-4690-98a1-9520c18c35ba	nextflow run main-1.nf --name Nadja
+2024-01-31 14:01:12	-	small_noyce	-	9e9c499637901bba0acdedc067fc940f	d6663465-8b0f-4afd-9f33-296780291344	nextflow run main-STAR.nf
+2024-01-31 14:02:00	-	magical_kirch	-	d0112bf171d1cec1df50d4778ab10379	362ee8b3-ee34-4692-bcc9-424a843d3583	nextflow run main-STAR.nf
+2024-01-31 14:03:36	1.5s	silly_meninsky	ERR	f9424170661577cc115f8ef20eda796f	35a53c3d-12ab-4d21-83a8-06676452f1a5	nextflow run main-STAR.nf
+2024-01-31 14:04:12	1.1s	thirsty_mclean	ERR	a9b7a477cc018d908d31529f1ef7f400	5e1dfc06-f2a5-49b5-99e6-e5e1ae9ab23b	nextflow run main-STAR.nf
+2024-01-31 14:04:30	1.2s	wise_lorenz	ERR	a9b7a477cc018d908d31529f1ef7f400	32235c3b-93d4-4ac0-aae4-6975265e28d0	nextflow run main-STAR.nf --use-conda
+2024-01-31 14:07:37	7.8s	curious_rutherford	OK	a9b7a477cc018d908d31529f1ef7f400	2c19dd50-8b33-43d4-857c-724f99ef5999	nextflow run main-STAR.nf -with-conda
+2024-01-31 14:12:26	6.4s	clever_lattes	OK	0d10ce81d94448f221307d96ded9dfba	223bd7f1-d1c2-48f8-9921-67b82fd43da7	nextflow run main-STAR.nf -with-conda
+2024-01-31 14:14:15	7.1s	boring_legentil	OK	31520c560dd0c624724d0573327d6f0e	6f1f50c9-e8e5-47a5-9aad-d4f95e2ff072	nextflow run main-STAR.nf -with-conda
+2024-01-31 14:25:22	-	condescending_cuvier	-	a42033eadf05b61d2cb1c65212f777c8	43632410-b87b-4dcf-bc70-f257371ab72b	nextflow run main-STAR.nf -with-conda
+2024-01-31 14:25:52	-	awesome_magritte	-	755941982ee093dd1d743a1706bbf32e	617da484-4514-4708-98c7-23bf8adfbd8c	nextflow run main-STAR.nf -with-conda
+2024-01-31 14:26:40	2.2s	goofy_meucci	ERR	b668823760bf9bac7f43d108b774586a	1369afa6-5bb8-4c25-a751-6331019066dc	nextflow run main-STAR.nf -with-conda
+2024-01-31 14:33:10	10.3s	stupefied_goldberg	OK	ba1179c391147665233c410563d5f1de	f72c5d40-e6e7-4dc3-bd84-ed20ba859209	nextflow run main-STAR.nf -with-conda
+2024-01-31 14:37:46	1.2s	exotic_gautier	ERR	4c6e9522d1409c36dfd78c9e4251169a	461b3f05-774c-4fcb-b6ca-106b8bd50657	nextflow run main-STAR.nf -with-conda
+2024-01-31 14:37:50	10.6s	special_brown	OK	4c6e9522d1409c36dfd78c9e4251169a	461b3f05-774c-4fcb-b6ca-106b8bd50657	nextflow run main-STAR.nf -with-conda -resume
+2024-01-31 14:46:20	5.1s	boring_lalande	OK	0ebd83924291d050fdf09a23ebf7b72f	461b3f05-774c-4fcb-b6ca-106b8bd50657	nextflow run main-STAR.nf -with-conda -resume
+2024-01-31 14:46:38	11.3s	elated_gutenberg	OK	0ebd83924291d050fdf09a23ebf7b72f	df2647f8-55ab-4561-9492-4988ab6c6b9e	nextflow run main-STAR.nf -with-conda
+2024-01-31 14:49:08	-	marvelous_hopper	-	d042f95605eb5d5ba4d96e0e8017aede	df2647f8-55ab-4561-9492-4988ab6c6b9e	nextflow run main-STAR.nf -with-conda -resume
+2024-01-31 14:49:39	1.7s	hopeful_wing	OK	b7b66359c0787438e5860f51ac3d2ff3	df2647f8-55ab-4561-9492-4988ab6c6b9e	nextflow run main-STAR.nf -with-conda -resume
+2024-01-31 14:51:35	4.9s	astonishing_mercator	OK	7a38900a3183e0ed98822f8b08467685	df2647f8-55ab-4561-9492-4988ab6c6b9e	nextflow run main-STAR.nf -with-conda -resume

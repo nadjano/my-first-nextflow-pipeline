@@ -7,7 +7,7 @@ genomeFasta = Channel.fromPath(params.genomeFasta)
 
 // from File Pairs
 fastqFiles = Channel
-    .fromFilePairs('./test_RNA_seq/ggal_*_{1,2}.fq')
+    .fromFilePairs('./test_RNA_seq/ggal_gut_{1,2}.fq')
 
 
 // Flatten Channel

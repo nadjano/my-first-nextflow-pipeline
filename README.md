@@ -86,11 +86,13 @@ Channel
     .view()
 `````
 
-### Donwload from SRA
 ````
 [potato, [/data/potato_1.fa, /data/potato_2.fa]]
 [frog, [data/frog_1.fa, /data/frog_2.fa]]
 ````
+
+### Donwload from SRA
+
 ```
 ids = ['ERR908507', 'ERR908506', 'ERR908505']
 Channel

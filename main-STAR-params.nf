@@ -35,7 +35,7 @@ process build_STAR_index {
     STAR --runThreadN 23  \
          --runMode genomeGenerate \
          --genomeDir STAR_index \
-         --genomeFastaFiles $genomeFasta
+         --genomeFastaFiles ${genomeFasta}
     """
 }
 
@@ -62,7 +62,7 @@ process run_STAR_alignment {
     """
     STAR  --genomeDir STAR_index \
           --readFilesIn $read1 $read2 \
-          --outFileNamePrefix $sample_name/ \
+          --outFileNamePrefix ${sample_name}_intron_len_${intronMax}/ \
           --outSAMtype BAM SortedByCoordinate \
           --alignIntronMax $intronMax
     """

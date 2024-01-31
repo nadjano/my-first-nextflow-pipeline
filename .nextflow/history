@@ -65,3 +65,12 @@
 2024-01-31 14:49:08	-	marvelous_hopper	-	d042f95605eb5d5ba4d96e0e8017aede	df2647f8-55ab-4561-9492-4988ab6c6b9e	nextflow run main-STAR.nf -with-conda -resume
 2024-01-31 14:49:39	1.7s	hopeful_wing	OK	b7b66359c0787438e5860f51ac3d2ff3	df2647f8-55ab-4561-9492-4988ab6c6b9e	nextflow run main-STAR.nf -with-conda -resume
 2024-01-31 14:51:35	4.9s	astonishing_mercator	OK	7a38900a3183e0ed98822f8b08467685	df2647f8-55ab-4561-9492-4988ab6c6b9e	nextflow run main-STAR.nf -with-conda -resume
+2024-01-31 14:59:03	-	infallible_wright	-	b7d9abb6e343ed6be10c4d4cabe45755	b10a8d0e-8a61-4dbc-91bd-7b31a6ffa70d	nextflow run main-STAR-params.nf
+2024-01-31 15:00:34	1.4s	distraught_mestorf	ERR	ea6e9bc75935e098eea5b09126ad8813	4a1044c9-6fc3-4d76-b3f5-d6f56882b0eb	nextflow run main-STAR-params.nf
+2024-01-31 15:00:44	1.1s	thirsty_newton	ERR	ea6e9bc75935e098eea5b09126ad8813	1b7696c7-5fed-4283-bddf-0e05828b6827	nextflow run main-STAR-params.nf --with-conda
+2024-01-31 15:01:25	1.1s	berserk_newton	ERR	ea6e9bc75935e098eea5b09126ad8813	e187692a-aaff-4d95-bda8-4b87ae06c48c	nextflow run main-STAR-params.nf --with-conda
+2024-01-31 15:02:15	1.1s	deadly_meucci	ERR	fec59f4e2513e25ef4a9b189f9963478	3175ce10-58ed-436c-8abf-c1efedffbff8	nextflow run main-STAR-params.nf --with-conda
+2024-01-31 15:04:01	1.1s	peaceful_noether	ERR	fec59f4e2513e25ef4a9b189f9963478	975f6e5d-74b2-49aa-8c6e-2d69c0aa3f10	nextflow run main-STAR-params.nf --with-conda
+2024-01-31 15:07:38	778ms	dreamy_faggin	ERR	7f082b028a1528c9b61a620ec2daf45d	971b7997-fc45-4b22-9d2d-77b76e541349	nextflow run main-STAR-params.nf --with-conda --config nextflow.config
+2024-01-31 15:08:02	1.5s	cheeky_kowalevski	ERR	7f082b028a1528c9b61a620ec2daf45d	2e2732be-3ee7-4c14-b5fd-ef9db0d5d4a7	nextflow run main-STAR-params.nf --with-conda --config nextflow.config
+2024-01-31 15:08:21	1.4s	naughty_shockley	ERR	809c8dd1ffa1f1557a5c201e17c4b175	174db0e9-46dd-48f6-8385-f54407ad7007	nextflow run main-STAR.nf --with-conda --config nextflow.config

@@ -41,3 +41,8 @@
 2024-01-02 11:30:00	679ms	exotic_stone	OK	3245ccc25255b2bc78bdf270677349ee	3ac75957-287a-4fef-895a-6539fc5bf34b	nextflow run main-channel.nf
 2024-01-02 11:36:33	3.5s	berserk_ritchie	ERR	c349f65c6d0b706e6a6c1bbe2943b9ec	daad9eca-c8eb-45d6-9da1-d5497e03a5e2	nextflow run main-channel.nf
 2024-01-02 11:39:03	2s	happy_volhard	ERR	f19289916dd3237ea3c19084776550b9	8941bf26-1185-4a7e-a588-a5732859b1df	nextflow run main-channel.nf
+2024-01-31 12:43:54	1.4s	fervent_spence	OK	fcc68a68feb326cd6a91dbf959f87096	4a2d2e6d-35f2-4b09-b0f2-f4728bd9bbc9	nextflow run main.nf
+2024-01-31 12:44:04	1s	marvelous_almeida	ERR	322b8821ac88f13d1c44d946d7d501d7	4c79cbee-1d89-45bc-be1a-6849bad31853	nextflow run main-1.nf
+2024-01-31 12:49:27	1.5s	nauseous_laplace	OK	964d2cf6d70e50e3e4277bc360b8d7ed	5cc349ed-69ee-4565-bb54-4518333e52b5	nextflow run main-1.nf
+2024-01-31 12:49:43	644ms	astonishing_austin	OK	964d2cf6d70e50e3e4277bc360b8d7ed	50d8b1db-6660-4a40-811b-64f32c14416a	nextflow run main-1.nf --name naddi
+2024-01-31 12:49:50	1.1s	sharp_hilbert	OK	964d2cf6d70e50e3e4277bc360b8d7ed	3a918e99-1dcd-4690-98a1-9520c18c35ba	nextflow run main-1.nf --name Nadja

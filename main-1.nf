@@ -30,6 +30,6 @@ process catFile {
  * Define the workflow
  */
 workflow {
-    catFile(params.in) \
-      | view
+    output = catFile(params.in)
+    output.view()
 }

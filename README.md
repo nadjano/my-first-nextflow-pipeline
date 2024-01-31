@@ -92,7 +92,7 @@ Channel
 [frog, [data/frog_1.fa, /data/frog_2.fa]]
 ````
 
-### Donwload from SRA
+### Download from SRA
 
 ```
 ids = ['ERR908507', 'ERR908506', 'ERR908505']

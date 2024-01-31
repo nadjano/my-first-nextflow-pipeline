@@ -16,6 +16,7 @@ fastqFiles_flat = fastqFiles.map { it ->
     }
     
 fastqFiles_flat.view()
+
 /*
  * Create STAR index for genome
  */
@@ -51,6 +52,7 @@ process run_STAR_alignment {
  
     input:
         tuple path(STAR_index), val(sample_name), path(read1), path(read2)
+        each intronMax
  
     output:
         tuple val(sample_name), path("$sample_name")
@@ -62,10 +64,7 @@ process run_STAR_alignment {
           --readFilesIn $read1 $read2 \
           --outFileNamePrefix $sample_name/ \
           --outSAMtype BAM SortedByCoordinate \
-       # --runThreadN 12 \
-       # --quantMode GeneCounts \
-       # --alignIntronMin 20 \
-       # --alignIntronMax 10000 \
+          --alignIntronMax $intronMax
     """
 }
  
@@ -81,6 +80,10 @@ workflow {
     index_with_reads = star_index.combine(fastqFiles_flat)
 
     index_with_reads.view()
+
+    // Lets add some mapping parameters
+
+    intron_max_length = [100, 1000]
  
-    run_STAR_alignment(index_with_reads)
+    run_STAR_alignment(index_with_reads, intron_max_length)
 }

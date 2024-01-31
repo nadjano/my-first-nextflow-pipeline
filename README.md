@@ -23,11 +23,6 @@
 
 
 
-# Presentation
-- Why tp use nextflow?
-
-
-
 ### Basic structure 
 
 
@@ -43,14 +38,14 @@ How to run:
 nextflow run main-1.nf --name [your name here]
 '''
 
-### Channels
+# Channels
 
 'Variables'
 
 ![Alt text](figures/channel.png)
 
-### Value Channels 
-## Channel of
+## Value Channels 
+### Channel of
 ``````
 // Channel.of create channel 
 bases = Channel.of('A', 'C', 'G', 'T')
@@ -66,7 +61,7 @@ T
 ## Channel factories¶
 
 These are Nextflow commands for creating channels that have implicit expected inputs and functions.
-# Combine
+### Combine
 ``````
 numbers = Channel.of(1, 2, 3, 4)
 numbers_bases = numbers.combine(bases)
@@ -91,9 +86,7 @@ Channel
     .view()
 `````
 
-
-
-# Donwload from SRA
+### Donwload from SRA
 ````
 [potato, [/data/potato_1.fa, /data/potato_2.fa]]
 [frog, [data/frog_1.fa, /data/frog_2.fa]]
@@ -110,12 +103,6 @@ Channel
 [ERR908506, [/vol1/fastq/ERR908/ERR908506/ERR908506_1.fastq.gz, /vol1/fastq/ERR908/ERR908506/ERR908506_2.fastq.gz]]
 [ERR908505, [/vol1/fastq/ERR908/ERR908505/ERR908505_1.fastq.gz, /vol1/fastq/ERR908/ERR908505/ERR908505_2.fastq.gz]]
 ``````
-
-
-
-### Three
-## Two
-# One
 
 
 # Nextflow or snakemake?

@@ -20,7 +20,7 @@ fastqFiles_flat = fastqFiles.map { it ->
  */
 process build_STAR_index {
 
-    conda "/Users/nnolte/miniconda3/envs/STAR"
+    conda "envs/STAR.yaml"
  
     input:
     path(genomeFasta)
@@ -42,7 +42,7 @@ process build_STAR_index {
  */
 process run_STAR_alignment {
 
-    conda "/Users/nnolte/miniconda3/envs/STAR"
+    conda "envs/STAR.yaml"
 
     publishDir(
         path: "${params.publish_dir}/STAR_quant",

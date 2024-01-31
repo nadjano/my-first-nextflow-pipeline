@@ -74,3 +74,4 @@
 2024-01-31 15:07:38	778ms	dreamy_faggin	ERR	7f082b028a1528c9b61a620ec2daf45d	971b7997-fc45-4b22-9d2d-77b76e541349	nextflow run main-STAR-params.nf --with-conda --config nextflow.config
 2024-01-31 15:08:02	1.5s	cheeky_kowalevski	ERR	7f082b028a1528c9b61a620ec2daf45d	2e2732be-3ee7-4c14-b5fd-ef9db0d5d4a7	nextflow run main-STAR-params.nf --with-conda --config nextflow.config
 2024-01-31 15:08:21	1.4s	naughty_shockley	ERR	809c8dd1ffa1f1557a5c201e17c4b175	174db0e9-46dd-48f6-8385-f54407ad7007	nextflow run main-STAR.nf --with-conda --config nextflow.config
+2024-01-31 20:44:30	783ms	hungry_morse	ERR	809c8dd1ffa1f1557a5c201e17c4b175	7f48259a-9c6a-4d0d-baf2-dd66d2e172fb	nextflow run main-STAR.nf --with-conda --config nextflow.config

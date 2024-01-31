@@ -1,0 +1,7 @@
+name: STAR
+channels: 
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - STAR

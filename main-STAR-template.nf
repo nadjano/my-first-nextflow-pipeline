@@ -63,7 +63,7 @@ process run_STAR_alignment {
     script:
     """
     STAR  --genomeDir STAR_index \
-          --readFilesIn \ #------------What goes here? 
+          --readFilesIn #------------What goes here? \
           --outFileNamePrefix $sample_name/ \
           --outSAMtype BAM SortedByCoordinate
     """
